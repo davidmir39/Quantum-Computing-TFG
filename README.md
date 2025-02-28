@@ -43,3 +43,43 @@ Luego, abre el entorno Jupyter Notebook y ejecuta los scripts de implementación
 ## Contacto
 
 Para cualquier consulta, puedes ponerte en contacto a través de este repositorio o por correo electrónico (davidmirandauclm@gmail.com). 
+
+# FF-QRAM: Flip-Flop Quantum Random Access Memory
+
+## Description
+
+The goal of this Bachelor's Thesis (TFG) in Computer Engineering with a specialization in computing was to understand and study the Flip-Flop QRAM algorithm and implement it for use in Quantum Machine Learning algorithms.
+
+QRAM algorithms serve as a bridge between databases in a classical format (bit) and Quantum Machine Learning algorithms, which require data in a quantum rather than a classical format. This translation is carried out by QRAM algorithms.
+
+## TFG Structure
+
+The TFG is divided into two parts:
+
+- **Didactic and reasoned description of the FF-QRAM algorithm:** Aimed at computer engineers who, without a background in quantum computing, can understand the concepts and functioning of the algorithm.
+- **Practical implementation of the FF-QRAM algorithm:** Designed for potential future use in Quantum Machine Learning algorithms, whether in a hypothetical future TFG or other projects. The practical implementation has been programmed in Python within the Jupyter environment, using the following libraries:
+  - **Numpy**
+  - **Matplotlib**
+  - **Scikit-learn**
+  - **Pandas**
+  - **Qiskit** (essential for quantum environment simulation)
+
+A small-sized database has been used in the algorithm's implementation, and a quantum circuit scheme resulting from the implementation has been obtained. The reason for using a small database is that, as size increases, the computational resources required exceed those available.
+
+## Repository Content
+
+In this GitHub repository, you will find:
+
+- **The TFG report** with an introduction to quantum computing basics to understand the problem addressed.
+- **The practical implementation of the FF-QRAM algorithm** used for the TFG presentation (with a tiny sample database to quickly display visual and understandable results).
+- **The deposited practical implementation of the FF-QRAM algorithm** (with a more complex database).
+
+---
+
+## Installation and Usage
+
+To run the code in this repository, ensure you have Python and the necessary libraries installed. You can install them by executing the following command:
+
+```bash
+pip install numpy matplotlib scikit-learn pandas qiskit
+
